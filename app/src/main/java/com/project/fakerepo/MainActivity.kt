@@ -14,4 +14,12 @@ class MainActivity : AppCompatActivity() {
         super.onBackPressed()
     }
 
+    override fun onStart() {
+        super.onStart()
+    }
+
+    override fun onStop() {
+        super.onStop()
+    }
+
 }
