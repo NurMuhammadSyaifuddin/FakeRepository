@@ -8,11 +8,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        onAction()
-    }
-
-    private fun onAction() {
-        TODO("Not yet implemented")
     }
 
 }
