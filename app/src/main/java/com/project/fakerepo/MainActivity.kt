@@ -1,5 +1,6 @@
 package com.project.fakerepo
 
+import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
@@ -10,8 +11,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    override fun onBackPressed() {
-        super.onBackPressed()
+    override fun onApplyThemeResource(theme: Resources.Theme?, resid: Int, first: Boolean) {
+        super.onApplyThemeResource(theme, resid, first)
     }
 
 }
